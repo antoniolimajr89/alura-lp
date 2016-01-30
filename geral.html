@@ -65,7 +65,7 @@
 	<link rel="subresource prefetch" href="./assets/paths.css">
 </head>
 
-<body>
+<body id="top">
 <section class="header header-other">
 	
 	<div class="header-container">
@@ -104,21 +104,17 @@
 	
 		
 		
-		
-			<h1 class="signup-title">
-				+190 cursos com acesso liberado durante 1 ano
-			</h1><br><br>
+			<a href="#trilhas" style="text-decoration:none">
+				<h1 class="signup-title">
+					+190 cursos com acesso liberado durante 1 ano
+				</h1><br><br>
+			</a>
 		
 	
 	
-<!-- 	<dl class="signup-advantages">
-		<dd class="signup-advantages-item advantages-icon-computerNight">Estude 24hrs por dia, onde e quando quiser</dd>
-		<dd class="signup-advantages-item advantages-icon-certify">Certificado digital de conclusão</dd>
-		<dd class="signup-advantages-item advantages-icon-rotation">Novos cursos todos os meses</dd>
-	</dl>
- -->	<div class="signup-cards">
+<div class="signup-cards">
 		<div class="signup-card signup-card-premium">
-			<h2 class="signup-card-title">Premium</h2>
+			<h2 class="signup-card-title">Plano Premium</h2>
 			<span class="signup-card-description"></span>
 			<span class="signup-card-portionPrice">12x de R$ 75</span>
 			<span class="signup-card-fullPrice">(à vista R$ 900)</span>
@@ -148,7 +144,7 @@
 			<a class="signup-card-buy-action" href="https://www.alura.com.br/compra/premium/">Comprar</a>
 		</div>
 		<div class="signup-card signup-card-premiumPlus">
-			<h2 class="signup-card-title">Premium Plus</h2>
+			<h2 class="signup-card-title">Plano Premium Plus</h2>
 			<span class="signup-card-description"></span>
 			<span class="signup-card-portionPrice">12x de R$ 100</span>
 			<span class="signup-card-fullPrice">(à vista R$ 1.200)</span>
@@ -180,6 +176,14 @@
 		
 		
 	</div>
+
+	<dl class="signup-advantages">
+		<dd class="signup-advantages-item advantages-icon-computerNight">Estude 24hrs por dia, onde e quando quiser</dd>
+		<dd class="signup-advantages-item advantages-icon-certify">Certificado digital de conclusão</dd>
+		<dd class="signup-advantages-item advantages-icon-rotation">Novos cursos todos os meses</dd>
+	</dl>
+	
+
 </section>
 
 
@@ -211,7 +215,7 @@
 
 
 
-<section class="paths">
+<section class="paths" id="trilhas">
 	<div class="paths-container">
 		<h2>Estude no Alura e aprenda:</h2>
 		
@@ -723,12 +727,135 @@
 				
 			
 		</li></ul>
+
+	<div style="text-align:center">
+		<a class="signup-card-buy-action" href="#top" style="display: inline-block;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 3em;">Compre Agora</a>
+	</div>
+
 	</div>
 </section>
 
 
 
 
+<footer>
+	<div class="footer-container">
+		<ul class="footer-information">
+			<a href="https://www.alura.com.br"  class="alura-logo">
+				<img class="logo" src="./assets/logo.svg" alt="Alura">
+			</a>
+
+			<a href="http://www.caelum.com.br" class="footer-powered alura-logo">
+					<p class="footer-powered-logo">powered by</p> 
+					<img class="caelum-logo" src="./assets/caelum-logo.png" />
+			</a>
+			
+			<p class="partners-title">Parceiros:</p>
+			<li><a href="http://www.casadocodigo.com.br" target="_blank">Editora Casa do Código</a></li>
+			<li><a href="http://www.galandra.com.br" target="_blank">Galandra - Pratique seu Inglês</a></li>
+		</ul><!--
+		--><ul class="footer-information">
+			<li><a  href="https://www.alura.com.br/torne-se-membro">Como Funciona</a></li>
+			<li><a href="https://www.alura.com.br/loginForm">Login</a></li>
+			<li><a href="https://www.alura.com.br/instrutores">Nossos Instrutores</a></li>
+			<li><a href="https://www.alura.com.br/sobre">Sobre Nós</a></li>
+			<li><a href="https://www.alura.com.br/todos-cursos">Todos os Cursos</a>
+			<li><a href="http://blog.alura.com.br/">Blog do Alura</a>
+		</ul><!--
+		--><ul class="footer-information social-media">
+			<li><a href="https://www.alura.com.br/contato-empresas">Para Empresas</a></li>
+			<li><a href="http://suporte.alura.com.br" target="_blank">Perguntas Frequentes</a></li>
+			<li><a href="https://www.alura.com.br/politica-de-privacidade">Política de Privacidade</a>
+			<li><a href="https://www.alura.com.br/contato">Contato</a></li>
+			<li>
+				<a href="https://feedback.userreport.com/409aa4ef-3399-4f03-ba57-cb36f702a520/#ideas/popular">Sugira um Curso</a>
+			</li>
+			<li><a href="https://www.alura.com.br/moderadores">Conheça nossos moderadores</a></li>
+			<li><a href="https://www.alura.com.br/rank">Ranking dos alunos</a></li>
+			
+		</ul><!--
+		--><form class="newsletter footer-information" action="/newsletter/subscribeAlura" method="POST" target="_self" onsubmit="">
+				<div class="ss-form-entry">
+						Receba as novidades e lançamentos:
+						<label class="newsletter-info" ></label>
+				<div class="sprite-email"></div>
+					<input class="input field" type="email" placeholder="E-mail" name="email" value="" required="required">
+				</div>
+				<input type="submit" name="Cadastrar" value="Cadastrar" class="btn btn-highlighted btn-small btn-inverse">
+		</form>
+	</div>
+
+	<nav class="sitemap">
+		<ul class="sitemap-container">
+			<li class="sitemap-section">
+				<span class="section-path">Cursos online de Java</span>
+				<ul>
+			   		<li><a href="https://www.alura.com.br/cursos-online-java">Cursos de Java e Orientação a Objetos</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-java-avancado">Cursos de Java Avançado</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-java-web">Cursos de Java para Web</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-certificacao-java">Cursos de Certificação Java</a></li>
+				</ul>
+				<span class="section-path">Cursos online de C# e .Net</span>
+				<ul>
+			   		<li><a href="https://www.alura.com.br/cursos-online-csharp">Cursos de C# e .Net</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-csharp">Cursos de C# e .Net para Web</a></li>
+				</ul>
+	   		</li><!--
+	   		--><li class="sitemap-section">
+				<span class="section-path">Cursos online de desenvolvimento Mobile</span>
+				<ul>
+			   		<li><a href="https://www.alura.com.br/cursos-online-android">Cursos de Android</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-ios">Cursos de iOS</a></li>
+				</ul>
+				<span class="section-path">Cursos online de Design e Negócios</span>
+				<ul>
+			   		<li><a href="https://www.alura.com.br/cursos-online-design-e-ux">Cursos de Design e UX</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-negocios">Cursos de Marketing Digital</a></li>
+				</ul>
+				<span class="section-path">Cursos online de Front-End</span>
+				<ul>
+			   		<li><a href="https://www.alura.com.br/cursos-online-front-end">Cursos de HTML e Front End</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-javascript-back-e-front">Cursos de Javascript</a></li>
+				</ul>
+	   		</li><!--
+	   		--><li class="sitemap-section">
+				<span class="section-path">Cursos online de Práticas de Desenvolvimento</span>
+				<ul>
+			   		<li><a href="https://www.alura.com.br/cursos-online-agilidade">Cursos de Agilidade</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-testes">Cursos de Teste de Software</a></li>
+				</ul>
+				<span class="section-path">Cursos de outras linguagens</span>
+				<ul>
+			   		<li><a href="https://www.alura.com.br/cursos-online-php">Cursos de PHP</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-ruby-e-rails">Cursos de Ruby on Rails</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-python">Cursos de Python</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-banco-de-dados">Cursos de Banco de Dados</a></li>
+				</ul>
+				<span class="section-path">Outros cursos</span>
+				<ul>
+			   		<li><a href="https://www.alura.com.br/cursos-online-primeiros-passos">Primeiros passos em desenvolvimento</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-computacao">Cursos de Computação</a></li>
+			   		<li><a href="https://www.alura.com.br/cursos-online-devops">Cursos de Infraestrutura</a></li>
+				</ul>
+	   		</li>
+		</ul>
+	</nav>
+</footer>
+<div >
+	<div class="caelumGroup-footer">
+		<p ><a class="caelumGroup-title" href="http://www.caelum.com.br/grupo">Grupo Caelum</a></p>
+		
+		<ul>
+			<li><a href="https://www.caelum.com.br"><img alt="" class="caelumGroup-footer-logo" src="./assets/caelum-logo.svg"></a></li>
+			<li><a href="https://www.alura.com.br"><img alt="" class="caelumGroup-footer-alura-logo"  src="./assets/alura-logo.svg"></a></li>
+			<li><a href="http://www.casadocodigo.com.br"><img class="caelumGroup-footer-cdc-logo" alt="" src="./assets/c-d-c-logo.svg"></a></li>
+			<li><a href="http://www.guj.com.br"><img alt="" class="caelumGroup-footer-guj-logo" src="./assets/g-u-j-logo.svg"></a></li>
+		</ul>
+	</div>
+</div>
 
 
 
