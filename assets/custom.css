@@ -1,0 +1,19 @@
+header {
+	text-align: left;
+}
+
+.product-icon {
+	padding-bottom: 1.5em;
+}
+
+.product-icon:hover:before,
+.product-icon:hover:after {
+	display: none;
+}
+
+h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	margin-bottom: 1em;
+}

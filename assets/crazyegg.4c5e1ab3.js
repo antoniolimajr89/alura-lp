@@ -1,0 +1,1 @@
+setTimeout(function(){var a=document.createElement("script"),b=document.getElementsByTagName("script")[0];a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0035/8263.js?"+Math.floor((new Date).getTime()/36e5),a.async=!0,a.type="text/javascript",b.parentNode.insertBefore(a,b)},1);
