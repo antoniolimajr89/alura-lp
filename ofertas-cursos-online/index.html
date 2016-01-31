@@ -142,7 +142,7 @@
 					<span class="signup-card-galandra-check negativeCheck">Curso de inglês do Galandra</span>
 				</span>
 			</div>
-			<a class="signup-card-buy-action" href="https://www.alura.com.br/compra/premium/">Comprar</a>
+			<a class="signup-card-buy-action utm" href="https://www.alura.com.br/compra/premium/">Comprar</a>
 		</div>
 		<div class="signup-card signup-card-premiumPlus">
 			<h2 class="signup-card-title">Plano Premium Plus</h2>
@@ -172,7 +172,7 @@
 					<span class="signup-card-galandra-check positiveCheck">Curso de inglês do Galandra</span>
 				</span>
 			</div>
-			<a class="signup-card-buy-action" href="https://www.alura.com.br/compra/premiumplus/">Comprar</a>
+			<a class="signup-card-buy-action utm" href="https://www.alura.com.br/compra/premiumplus/">Comprar</a>
 		</div>
 		
 		
@@ -187,6 +187,19 @@
 
 </section>
 
+<script>
+(function(){
+	var utm_campaign = location.hash.replace('#', '');
+	utm_campaign = utm_campaign || 'Default';
+
+	var param = '?utm_source=Alura_Landing_Page&utm_medium=referral&utm_campaign=' + utm_campaign;
+
+	var links = document.querySelectorAll('a.utm');
+	for (var i = 0; i < links.length; i++) {
+		links[i].href = links[i].href + param;
+	};
+})();
+</script>
 
 
 
