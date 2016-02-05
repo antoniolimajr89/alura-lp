@@ -24,6 +24,11 @@ h2 {
 	color: navy;
 }
 
+.signup-title strong {
+	color: #00BC51;
+	text-shadow: 0 0 1px #235F2E;
+}
+
 del {
 	color: #999;
 	font-size: 80%;
